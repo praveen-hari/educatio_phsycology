@@ -1,0 +1,92 @@
+# MkDocs Configuration for Educational Psychology Course
+
+site_name: Educational Psychology Study Guide
+site_description: Exam-ready study guide for Educational Psychology
+site_author: Student Guide
+
+# Theme Configuration
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.copy
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  font:
+    text: Roboto
+    code: Roboto Mono
+  icon:
+    logo: material/book-education
+
+# Navigation Structure
+nav:
+  - Home: index.md
+  - Unit 1 - Educational Psychology & Human Development:
+    - Overview: unit-1-educational-psychology-growth-development.md
+  - Unit 2 - Attention, Perception & Memory:
+    - Overview: unit-2-attention-perception-memory.md
+  - Unit 3 - Motivation & Learning:
+    - Overview: unit-3-motivation-and-learning.md
+  - Unit 4 - Intelligence & Creativity:
+    - Overview: unit-4-intelligence-and-creativity.md
+  - Unit 5 - Personality:
+    - Overview: unit-5-personality.md
+
+# Markdown Extensions
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - admonition
+  - pymdownx.details
+  - pymdownx.tabbed:
+      alternate_style: true
+  - tables
+  - attr_list
+  - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - toc:
+      permalink: true
+
+# Plugins
+plugins:
+  - search
+  - tags
+
+
+# Extra settings
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com
+  generator: false
+
+# Copyright
+copyright: Copyright &copy; 2026 - Educational Psychology Study Guide
