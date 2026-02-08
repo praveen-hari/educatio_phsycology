@@ -12,25 +12,25 @@ flowchart TB
     subgraph FACTORS["🧠 PERSONALITY FACTORS"]
         direction TB
         subgraph BIO["🧬 Biological Factors"]
-            B1[i) Physique]
-            B2[ii) Chemique - Endocrine Glands]
-            B3[iii) Nervous System]
+            B1["i) Physique"]
+            B2["ii) Chemique - Endocrine Glands"]
+            B3["iii) Nervous System"]
         end
         
         subgraph SOC["👥 Sociological Factors"]
-            S1[i) Home]
-            S2[ii) School]
-            S3[iii) Language]
-            S4[iv) Culture]
+            S1["i) Home"]
+            S2["ii) School"]
+            S3["iii) Language"]
+            S4["iv) Culture"]
         end
         
         subgraph PSY["🧠 Psychological Factors"]
-            P1[i) Intelligence]
-            P2[ii) Motivation]
-            P3[iii) Emotion]
-            P4[iv) Attitude]
-            P5[v) Interest]
-            P6[vi) Sentiment]
+            P1["i) Intelligence"]
+            P2["ii) Motivation"]
+            P3["iii) Emotion"]
+            P4["iv) Attitude"]
+            P5["v) Interest"]
+            P6["vi) Sentiment"]
         end
     end
     
@@ -61,9 +61,9 @@ There are **three biological factors** in personality development:
 ```mermaid
 flowchart TB
     subgraph BIOLOGICAL["🧬 Biological Factors"]
-        A[i) Physique]
-        B[ii) Chemique]
-        C[iii) Nervous System]
+        A["i) Physique"]
+        B["ii) Chemique"]
+        C["iii) Nervous System"]
     end
     
     style BIOLOGICAL fill:#ffcdd2,stroke:#f44336,stroke-width:2px
@@ -172,9 +172,9 @@ flowchart TB
 ```mermaid
 flowchart TB
     subgraph SOCIAL["👥 Social Factors"]
-        A[I) Home]
-        B[II) School]
-        C[III) Culture]
+        A["I) Home"]
+        B["II) School"]
+        C["III) Culture"]
     end
     
     style SOCIAL fill:#c8e6c9,stroke:#4caf50,stroke-width:2px
